@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/5Y04z2h/product-1.png",
+        "category": "laptop",
+        "title": "All Laptops"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/nwz5q4H/product-2.png",
+        "category": "laptopsBattery",
+        "title": "Laptop Battery"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/hBRCh2N/product-3.png",
+        "category": "televisions",
+        "title": "All TV"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/8xZbhJB/product-4.png",
+        "category": "phones",
+        "title": "Phone"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/ZHwSgnx/product-5.png",
+        "category": "tablets",
+        "title": "Tablet"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/KzCzKnD/product-7.png",
+        "category": "smartWatches",
+        "title": "Smart Watch"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/YpvBH8F/product-9.png",
+        "category": "gpus",
+        "title": "Graphics Card"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/K0N141M/product-12.png",
+        "category": "headphones",
+        "title": "Headphone"
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/6rwRbjn/product-14.png",
+        "category": "speakers",
+        "title": "Speaker"
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co/FncP8NZ/product-13.png",
+        "category": "earPhones",
+        "title": "Ear Phone"
+    }
+]

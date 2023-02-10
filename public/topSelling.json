@@ -1,0 +1,194 @@
+[
+    {
+        "_id": "63dbda55a67a1541dafc7298",
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/mDwF1rm/galaxy-z-fold4-beige-01-500x500.png"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/J7ZL8j2/galaxy-z-fold4-graygreen-02-500x500.png"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/z5fV54c/galaxy-z-fold4-graygreen-01-500x500.png"
+            }
+        ],
+        "category": "phones",
+        "brand": "Samsung",
+        "price": "48,000",
+        "title": "Samsung Galaxy Z Fold4 Triple Camera Foldable Smartphone (12/256GB)",
+        "rating": "3",
+        "description": "The Samsung Galaxy Z Fold4 has a 7.6-inch (unfolded) Full HD+, premium Dynamic AMOLED 2X display. It has a smartphone that can fold up. A 4K video recording option is available on the triple 50+10+12 MP back camera. The 4 MP front camera has an additional 10 MP cover display camera. 4400 mAh battery is included with the Galaxy Z Fold4. It has an octa-core CPU that runs at up to 3.19 GHz, 12 GB of RAM, and an Adreno 730 GPU. A Qualcomm Snapdragon 8+ Gen 1 (4 nm) chipset provides the device's power. There is no MicroSD slot and the storage options are 256, 512, or 1 TB. This phone has a fingerprint sensor mounted on the side.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: Galaxy Z Fold4"
+            },
+            {
+                "id": 2,
+                "f": "Display: 7.6 Inch FHD+ AMOLED Main Screen, 6.2 Inch Dynamic AMOLED Cover Screen"
+            },
+            {
+                "id": 3,
+                "f": "Processor: Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)"
+            },
+            {
+                "id": 4,
+                "f": "Camera: Triple 50+10+12 MP Rear, 4MP Under Display, 10MP Cover"
+            },
+            {
+                "id": 5,
+                "f": "Features: Horizontal Foldable, IPX8, Side-mounted Fingerprint"
+            }
+        ]
+    },
+    {
+        "_id": "63dcb501a67a1541da90cf18",
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/4T6TchN/geforce-rtx-4080-16gb-aero-oc-01-500x500.webp"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/JpjJ87m/geforce-rtx-4080-16gb-aero-oc-02-500x500.webp"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/124zwQz/geforce-rtx-4080-16gb-aero-oc-04-500x500.webp"
+            },
+            {
+                "id": 4,
+                "i": "https://i.ibb.co/JF1RSXF/geforce-rtx-4080-16gb-aero-oc-05-500x500.webp"
+            },
+            {
+                "id": 5,
+                "i": "https://i.ibb.co/z226GPN/geforce-rtx-4080-16gb-aero-oc-06-500x500.webp"
+            }
+        ],
+        "category": "gpus",
+        "brand": "Gigabyte",
+        "price": "190,000",
+        "title": "GIGABYTE GeForce RTX 4080 16GB AERO OC GDDR6X Graphics Card",
+        "rating": "5",
+        "description": "The GIGABYTE GeForce RTX 4080 16GB AERO OC Graphics Card, based on the Ada Lovelace architecture and designed to handle the graphical demands of 8K gaming and high frame rates, brings the power of real-time ray tracing and AI to your PC games. The GPU has 16GB of GDDR6X VRAM and a 256-bit memory interface, which provides better performance and power efficiency than the previous Ampere-based iteration. The front panel of the card features a variety of outputs, such as DisplayPort 1.4a and HDMI 2.1. HDMI 2.1 supports up to 48 Gb/s bandwidth and a range of higher resolutions and refresh rates, including 8K @ 60 fps, 4K @ 120 fps, and even up to 10K. The RTX 4080 is not just about high-resolution gaming. Computationally intensive programs can utilize the GPU's 9728 cores to accelerate tasks using CUDA and other APIs. Gigabyte used the WINDFORCE cooling technology for cooling. The three fans rotate in opposite directions to decrease turbulence and boost airflow pressure. When the GPU is running a low-load or low-power game, the 3D Active Fan provides semi-passive cooling, and the fans turn off. The triangle fan edge splits the airflow, which is then steered smoothly along the 3D stripe curve on the fan surface. The graphene nano lubricant can extend the life of the fans while also making them quieter. It also has RGB Fusion, which includes color customization and a variety of lighting effects. It can also be used to sync with other AORUS devices. The GIGABYTE GeForce RTX 4080 16GB AERO OC GDDR6X Graphics Card comes with a 02-year warranty.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: GeForce RTX 4080 16GB AERO OC"
+            },
+            {
+                "id": 2,
+                "f": "Core clock: 2535 MHz (Reference Card: 2505 MHz)"
+            },
+            {
+                "id": 3,
+                "f": "Memory Clock 22.4 Gbps"
+            },
+            {
+                "id": 4,
+                "f": "CUDA Cores: 9728"
+            },
+            {
+                "id": 5,
+                "f": "Output: DP 1.4a x3, HDMI 2.0 x1"
+            }
+        ]
+    },
+    {
+        "_id": "63dc7279a67a1541da12f7f3",
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/y4B3GyP/redmi-pad-moonlight-silver-01-500x500.webp"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/yhHcrG4/redmi-pad-mint-green-02-500x500.webp"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/DpzjmBc/redmi-pad-graphite-gray-01-500x500.webp"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/Dw2mChW/redmi-pad-graphite-gray-02-500x500.webp"
+            }
+        ],
+        "category": "tablets",
+        "brand": "Redmi",
+        "price": "30,000",
+        "title": "Xiaomi Redmi Pad Helio G99 6GB RAM 128GB Storage 10.61 Inch 2K Android Tablet",
+        "rating": "4",
+        "description": "Xiaomi Redmi Pad 10.61 Inch Android Tablet is an elegant all-metal unibody chassis, flat frames, and symmetrical bezels that make the Redmi Pad look and feel amazing to use. It offers a high-refresh-rate display, sensible chipset choice, a big battery, and uses cameras. The Mediatek Helio G99 chipset is decently powerful and frugal at the same time, and the 8,000mAh battery promises solid longevity. It comes with an 8MP Main camera and an 8MP Centered ultra-wide front camera. The tablet is a complete package.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: Redmi Pad"
+            },
+            {
+                "id": 2,
+                "f": "Display: 10.61 Inch 2K (2000x1200) 90Hz display"
+            },
+            {
+                "id": 3,
+                "f": "RAM: 6GB LPDDR4X, Storage: 128GB UFS 2.2"
+            },
+            {
+                "id": 4,
+                "f": "CPU: MediaTek Helio G99, Up to 2.2GH, 6nm"
+            },
+            {
+                "id": 5,
+                "f": "Battery: 8000mAh, 18W fast charging"
+            }
+        ]
+    },
+    {
+        "_id": "63d53508718aef99df8479cf",
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/ZSY2zHg/s5602za-sandy-grey-01-500x500.webp"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/47BV3QY/s5602za-sandy-grey-02-500x500.webp"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/ZKcq4Lv/s5602za-sandy-grey-03-500x500.webp"
+            }
+        ],
+        "category": "laptop",
+        "title": "Asus Vivobook S 16X S5602ZA Core i5 12th Gen 16 Inch WQXGA Display Laptop",
+        "price": "125,500",
+        "brand": "ASUS",
+        "rating": "3",
+        "description": "The Asus Vivobook S 16X S5602ZA laptop which blends striking appearance with strong performance, allows you to explore every option. It's the ideal choice for productivity, creativity, or enjoyment, thanks to an Intel Core i5-12500H Processor (18M Cache, up to 4.50 GHz), up to 16 GB DDR4 3200 MHz RAM with 1 SO-DIMM slot for memory extension, and Intel Iris Xe integrated graphics and featuring the ASUS IceCool cooling system, a 512 GB SSD and an ultrafast WiFi 6E connection, there’s always plenty of power in reserve when the going gets tough. Moreover, ASUS IceCool thermal technology provides your Vivobook S 16X with an efficient cooling system. There are several I/O ports, including two ThunderboltTM 4 connectors, and it contains all of the most recent ASUS technologies, including ASUS AI Noise-Canceling Audio. Whatever your requirements are, the Vivobook S 16X is the solution – so get exploring right away! The Asus Vivobook S 16X S5602ZA Core i5 12th Gen 16 WQXGA Display Laptop 02 years International Limited Warranty (Battery 1 year).",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: Vivobook S 16X S5602ZA"
+            },
+            {
+                "id": 2,
+                "f": "Processor: Intel Core i5-12500H (18M Cache, up to 4.50 GHz)"
+            },
+            {
+                "id": 3,
+                "f": "Ram: 16GB DDR4, Storage: 512GB SSD"
+            },
+            {
+                "id": 4,
+                "f": "Display: 16 Inch WQXGA (2560 x 1600)"
+            },
+            {
+                "id": 5,
+                "f": "Features: Backlit Chiclet Keyboard, Cortana, & Alexa support"
+            }
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/mt7fcs9/icons8-samsung-240.png",
+        "category": "samsung",
+        "title": "Samsung"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/Mf5JtGZ/icons8-asus-256.png",
+        "category": "asus",
+        "title": "Asus"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/JtDYtnf/icons8-xiaomi-100.png",
+        "category": "xiaomi",
+        "title": "Xiaomi"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/5LfqDmY/icons8-msi-144.png",
+        "category": "msi",
+        "title": "MSI"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/stcNhq0/icons8-playstation-150.png",
+        "category": "playstation",
+        "title": "Playstation"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/r5Xm2Vd/icons8-xbox-144.png",
+        "category": "xbox",
+        "title": "Xbox"
+    }
+]
