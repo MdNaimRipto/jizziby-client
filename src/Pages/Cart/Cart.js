@@ -25,7 +25,6 @@ const Cart = () => {
             .then(res => res.json())
             .then(data => {
                 if (data.acknowledged === true) {
-                    console.log(data)
                     toast.success("Successfully Saved Items")
                     clearCart()
                 }

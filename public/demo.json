@@ -2226,5 +2226,510 @@
                 "f": "Touchscreen LCD, Dials & Buttons"
             }
         ]
+    },
+    {
+        "_id": 1245,
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/M7xpTnW/midnight-forces-ii-500x500.jpg"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/6J30wj1/midnight-forces-ii-1-500x500.jpg"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/gMTkHn8/midnight-forces-ii-2-500x500.jpg"
+            }
+        ],
+        "category": "controllers",
+        "brand": "Xbox",
+        "price": "8700",
+        "title": "Xbox Midnight Forces II Special Edition Wireless Controller",
+        "rating": "4",
+        "description": "Own the battlefield with the Xbox Wireless Controller â€“ Midnight Forces II Special Edition featuring a blue camouflage pattern and textured grip for enhanced comfort. Enjoy custom button mapping and plug in any compatible headset with the 3.5mm stereo headset jack. And with Bluetooth technology, play your favorite games on Windows 10 PCs, laptops, and mobile devices. Experience the enhanced comfort and feel of the new Xbox Wireless Controller, featuring a textured grip, precise thumbsticks, and a responsive D-pad. Feel the action with Impulse Triggers and enjoy custom button mapping. Plus, plug in any compatible headset with the 3.5mm stereo headset jack. Play your favorite games on Windows 10 PCs, laptops, and mobile devices. Button mapping available via Xbox Accessories app for Xbox One and Windows 10. Operating system and controller firmware updates may be required. Compatible with Xbox Series X, Xbox Series S, Xbox One X, Xbox One S, Xbox One, Windows 10, Android, iOS. Functionality depends on the supported device and operating system version, and experiences may vary. The Xbox Midnight Forces II Controller has no warranty.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: Xbox Midnight Forces II"
+            },
+            {
+                "id": 2,
+                "f": "Bluetooth"
+            },
+            {
+                "id": 3,
+                "f": "Stay on target"
+            },
+            {
+                "id": 4,
+                "f": "Elevate your game"
+            },
+            {
+                "id": 5,
+                "f": "Loaded with features"
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/DDtvVqf/dualsense-10-500x500.jpg"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/bs9Y18H/dualsense-20-500x500.jpg"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/rkGcKcX/dualsense-30-500x500.jpg"
+            },
+            {
+                "id": 4,
+                "i": "https://i.ibb.co/zVgQL75/dualsense-40-500x500.jpg"
+            }
+        ],
+        "category": "controllers",
+        "brand": "Playstation",
+        "price": "8500",
+        "title": "PlayStation 5 DualSense Wireless Controller - Cosmic Red",
+        "rating": "5",
+        "description": "The Latest PlayStation 5 DualSense Wireless Controller - Cosmic Red offers immersive haptic feedback, dynamic adaptive triggers, and a built-in microphone, all integrated into an iconic design. You will Discover a deeper gaming experienc1 with the innovative new PS5 controller. In your hands, These dynamic vibrations can simulate the feeling of everything from environments to the recoil of different weapons. This Latest PlayStation 5 DualSense Wireless Cosmic Red Color Controller provides you physically responsive feedback to your in-game actions with dual actuators which replace traditional rumble motors.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: PlayStation 5 DualSense"
+            },
+            {
+                "id": 2,
+                "f": "Built-in microphone and headset jack"
+            },
+            {
+                "id": 3,
+                "f": "Motion sensor, Create button"
+            },
+            {
+                "id": 4,
+                "f": "Built-in Battery, Integrated Speaker"
+            },
+            {
+                "id": 5,
+                "f": "Color: Cosmic Red"
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/yfzx8Kt/wgp13-shooter-ii-02-500x500.jpg"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/yX2QK3y/wgp13-shooter-ii-03-500x500.jpg"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/ZXG7jLW/wgp13-shooter-ii-04-500x500.jpg"
+            }
+        ],
+        "category": "controllers",
+        "brand": "Fantech",
+        "price": "3000",
+        "title": "Fantech WGP13 Shooter II Wireless Gaming Controller",
+        "rating": "5",
+        "description": "The Fantech WGP13 Shooter II Wireless Gaming Controller may be picked up and used right away. You'll be led by your instincts as you navigate the familiar pattern. You'll be able to play games in no time. SHOOTER II WGP13 is intended to provide you with a console-like control experience while still deviating from the norm. Using your SHOOTER II WGP13 controller, play thousands of games on PC and PS3. With the most popular games in each genre, you'll have total control over your favorite games. Feel the thrill of the game. In games that allow vibration feedback, get a new degree of feedback with every hit, crash, and explosion. Included is a turbo option for swiftly defeating your opponents in fighting games and other games. You won't have to worry about running out of juice since the built-in lithium-ion battery lasts for 10 hours on a single charge. While the controller is charging, keep playing. Plug it in and forget about it. Cut the connection and experience the freedom of gaming without being tethered to anything. Simply plug the receiver into a USB port for quick, reliable 2.4 GHz data transfer with no delays, dropouts, or interference. This version has been modified to provide even greater reliability. The Fantech WGP13 Shooter II Wireless Gaming Controller has a 01-year warranty.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: WGP13 Shooter II"
+            },
+            {
+                "id": 2,
+                "f": "Wireless 2.4 GHz, Dual Vibration"
+            },
+            {
+                "id": 3,
+                "f": "Familiar Console-Like Layout"
+            },
+            {
+                "id": 4,
+                "f": "Built-In Rechargeable Battery"
+            },
+            {
+                "id": 5,
+                "f": "Built-In Turbo Mode, For PC/PS3"
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/jfrkvww/xbox-wireless-controller-shock-blue-01-500x500.webp"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/K9dcW3y/xbox-wireless-controller-shock-blue-02-500x500.webp"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/xmN535z/xbox-wireless-controller-shock-blue-03-500x500.webp"
+            },
+            {
+                "id": 4,
+                "i": "https://i.ibb.co/GMXjjzH/xbox-wireless-controller-shock-blue-04-500x500.webp"
+            }
+        ],
+        "category": "controllers",
+        "brand": "Xbox",
+        "price": "8200",
+        "title": "Microsoft Xbox Wireless Controller - Shock Blue",
+        "rating": "3",
+        "description": "The Microsoft Xbox Wireless Controller Shock Blue features sculpted surfaces and a refined geometry for enhanced comfort during gameplay. Stay on target with a textured grip and a hybrid D-pad. Seamlessly capture and share content with a dedicated Share button. Quickly pair with, play on, and switch between devices including Xbox Series X|S, Xbox One, Windows 10 PC, and Android. iOS support coming in the future. Seamlessly capture and share content such as screenshots, recordings, and more with the new Share button. Stay on target with the new hybrid D-pad, textured grip on the triggers, bumpers, and back-case. Easily pair and switch between devices including Xbox Series X, Xbox Series S, Xbox One, Windows 10 PC, and Android. iOS support coming in the future. Includes Xbox Wireless and Bluetooth technology for wireless gaming on a console, PC, mobile phones, and tablets. Plug in any compatible headset with the 3.5mm stereo headset jack. The Xbox Wireless Controller is available in Carbon Black and Robot White. The Microsoft Xbox Wireless Controller Shock Blue has No Warranty.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: Xbox Wireless Controller"
+            },
+            {
+                "id": 2,
+                "f": "Textured Triggers and Bumpers"
+            },
+            {
+                "id": 3,
+                "f": "Bluetooth Technology"
+            },
+            {
+                "id": 4,
+                "f": "Button Mapping"
+            },
+            {
+                "id": 5,
+                "f": "Hybrid D-Pad"
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/rHXfZkK/xbox-wireless-1-500x500.jpg"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/7KdJKfc/xbox-wireless-02-500x500.webp"
+            }
+        ],
+        "category": "controllers",
+        "brand": "Xbox",
+        "price": "6200",
+        "title": "Xbox Wireless Controller 1914 Black/White",
+        "rating": "4",
+        "description": "Experience the modernised design of the Xbox Wireless Controller, featuring sculpted surfaces and refined geometry for enhanced comfort during gameplay. Stay on target with textured grip and a hybrid D-pad. Seamlessly capture and share content with a dedicated Share button. Quickly pair with, play on, and switch between devices including Xbox Series X|S, Xbox One, Windows 10 PC and Android. iOS support coming in the future. Seamlessly capture and share content such as screenshots, recordings, and more with the new Share button. Stay on target with the new hybrid D-pad, textured grip on the triggers, bumpers, and back-case. Easily pair and switch between devices including Xbox Series X, Xbox Series S, Xbox One, Windows 10 PC, and Android. iOS support coming in the future. Includes Xbox Wireless and BluetoothÂ® technology for wireless gaming on console, PC, mobile phones and tablets. Plug in any compatible headset with the 3.5mm stereo headset jack. The Xbox Wireless Controller is available in Carbon Black and Robot White. The Xbox Wireless Controller has No Warranty.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: 1914"
+            },
+            {
+                "id": 2,
+                "f": "Textured Triggers and Bumpers"
+            },
+            {
+                "id": 3,
+                "f": "Bluetooth Technology"
+            },
+            {
+                "id": 4,
+                "f": "Button Mapping"
+            },
+            {
+                "id": 5,
+                "f": "Hybrid D-Pad"
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/G2THk3w/dualshock-4-magma-red-01-500x500.jpg"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/6H1mLgj/dualshock-4-magma-red-02-500x500.jpg"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/99fL7Y7/dualshock-4-magma-red-03-500x500.jpg"
+            },
+            {
+                "id": 4,
+                "i": "https://i.ibb.co/MBZqSFt/dualshock-4-magma-red-04-500x500.jpg"
+            }
+        ],
+        "category": "controllers",
+        "brand": "Playstation",
+        "price": "3000",
+        "title": "PS4 DualShock 4 Wireless Controller Magma Red (Original)",
+        "rating": "4",
+        "description": "Stay classy with a selection of timeless classic colours returning to the DUALSHOCK 4 wireless controller range. Capture and show off your finest moments with just the push of a button. Upload gameplay videos and screenshots directly from your PS4 system or livestream your gameplay, all without disturbing your in-progress game. Get even more precise control with the built-in touch pad that now shows the unique light bar, adding an extra dimension to your games. Get the edge with a much tighter sense of control over in-game actions. See even more of your games with the integrated light bar that glows with various colours depending on in-game action - now visible on the touch pad. Bring your games to life and hear every detail with sound effects coming directly from your DUALSHOCK 4 wireless controller. Listen to your games in private and hear every boom, bang and blast with an integrated 3.5mm audio jack for your headphones. Rock and roll as a highly sensitive built-in accelerometer and gyroscope detect the motion, tilt and rotation of your DUALSHOCK 4 wireless controller. Charge the controller's internal battery from your PS4 USB port, giving you hassle-free charging as you play.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: PS4 Dualshock 4"
+            },
+            {
+                "id": 2,
+                "f": "SHARE button, Touch pad"
+            },
+            {
+                "id": 3,
+                "f": "Light bar, Built-in speaker"
+            },
+            {
+                "id": 4,
+                "f": "Refined analog sticks and triggers"
+            },
+            {
+                "id": 5,
+                "f": "Motion sensors, Stereo headset jack"
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/16P84Bk/playstation-5-02-500x500.jpg"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/WHXbdXV/playstation-5-01-500x500.jpg"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/xGs6LF9/playstation-5-03-500x500.jpg"
+            }
+        ],
+        "category": "consoles",
+        "brand": "Playstation",
+        "price": "90,000",
+        "title": "Sony PlayStation 5 Gaming Console Analog Edition",
+        "rating": "4",
+        "description": "Sony PlayStation 5 Gaming Console comes with an ultra-high-speed SSD, deeper immersion which is support for haptic feedback, adaptive triggers, 3D Audio, and an all-new generation of incredible PlayStation games. The exclusive PS5 is a technically impressive piece of hardware. There are the new, 10.28 TFLOPs, 36 CUs at 2.23GHz GPU, Custom RDNA 2 GPU architecture that can push 4K resolution at 120 frames per second, and the octa-core AMD Zen 2-based CPU with a 3.5GHz clock speed. It is also featured with 16GB of GDDR6 / 256-bit memory and Custom 825GB SSD. Here, The custom integration of the PS5 console's systems lets creators pull data from the SSD so quickly that they can design games in ways never before possible. The PS 5 Marvel at incredible graphics and experience new PS5 features, these are - Ray tracing, that provides you a new level of realism as rays of light are individually simulated, creating true-to-life shadows and reflections in supported PS5 games; 4K-TV gaming and also PS5 console is compatible with 8K displays through HDMI 2.1 support. . The PlayStation 5 comes with smooth and fluid high frame rate gameplay at up to 120fps for compatible games, that support for 120Hz output on 4K displays. Here, the HDR technology supported PS5 games display an unbelievably vibrant and lifelike range of colors. You will enjoy faster and smoother frame rates in select PS4 and PS VR games. This latest PlayStation 5 gives gamers the ability to let players upgrade their disc and digital PS4 games to digital PS5 games. This PlayStation has VR integration. It will provide you with Breathtaking immersion to Discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology, and also you will enjoy life and truly experience with Tempest 3D AudioTech. In this, Sony PlayStation 5 The DualSense wireless controller for PS5 offers immersive haptic feedback, dynamic adaptive triggers, and a built-in microphone, all integrated into an iconic design. This new exclusive PS5 featured 4K Ultra HD Blu-ray and 4K entertainment streaming also. One of the best things about the PlayStation 5 is that it acts as a bridge between generations. Your entire library of digital PS4 games is there from the moment you log into your PSN account, and any great games you missed will likely be part of the PlayStation Plus Collection. The exclusive features of the PS5 are its SSD, which significantly reduces the time it takes for games to start up, and its cutting-edge GPU, which enables ray-traced graphics and resolutions up to 4K at 120fps. The new PS5 controller is revolutionary, and the whole experience feels fresh, fast, and satisfying to use. This latest Sony PlayStation 5 Gaming Console has No Parts Warranty.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: PlayStation 5"
+            },
+            {
+                "id": 2,
+                "f": "AMD Zen 2-based CPU with 8 cores at 3.5GHz (variable frequency)"
+            },
+            {
+                "id": 3,
+                "f": "GPU: 10.28 TFLOPs, 36CUs at 2.23GHz"
+            },
+            {
+                "id": 4,
+                "f": "16GB GDDR6 + 825GB SSD"
+            },
+            {
+                "id": 5,
+                "f": "4K UltraHD Blu-ray, 8K support"
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/x1GdJ1Z/xbox-series-x-01-500x500.webp"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/1bVPS8j/xbox-series-x-02-500x500.webp"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/5WVQjz0/xbox-series-x-03-500x500.webp"
+            },
+            {
+                "id": 4,
+                "i": "https://i.ibb.co/8mQ38dH/xbox-series-x-04-500x500.webp"
+            }
+        ],
+        "category": "consoles",
+        "brand": "Xbox",
+        "price": "75,000",
+        "title": "Microsoft Xbox Series X Gaming Console",
+        "rating": "5",
+        "description": "The Microsoft Xbox Series X Gaming Console delivers sensationally smooth frame rates of up to 120FPS with the visual pop of HDR. Immerse yourself with sharper characters, brighter worlds, and impossible details with true-to-life 4K. The Xbox Series X is equipped with 8X Cores @ 3.8 GHz (3.66 GHz w/SMT) Custom Zen 2 CPU and 12 TFLOPS, 52 CUs @1.825 GHz Custom RDNA 2 GPU. It comes with 16GB GDDR6 w/320 bit-wide bus memory and 1TB Custom NVME SSD. It has a split motherboard that keeps the console’s internals evenly temperature controlled allowing for an even higher output of power. It has a heat-sink chassis that merges parallel cooling with a unique design to increase the reliability of performance. The vapor chamber in the Xbox Series X enables an even spread of temperatures within the core. A vertical airflow system keeps the console running smoothly and cooling quietly. The Microsoft Xbox Series X Gaming Console offers Up to 8K HDR and 4K UHD Blu-Ray. It also delivers up to 120 FPS. For sound capabilities, it offers  Dolby Digital 5.1, DTS 5.1, Dolby TrueHD with Atmos, and up to 7.1 L-PCM. It offers 1x HDMI 2.1 port, 3x USB 3.1 Gen 1 ports, 802.3 10/100/1000 Ethernet, and 802.11ac dual-band wireless connectivity. The Microsoft Xbox Series X Gaming Console comes with no warranty.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: Xbox Series X"
+            },
+            {
+                "id": 2,
+                "f": "CPU: 8X Cores @ 3.8 GHz (3.66 GHz w/SMT) Custom Zen 2 CPU"
+            },
+            {
+                "id": 3,
+                "f": "GPU: 12 TFLOPS, 52 CUs @1.825 GHz Custom RDNA 2 GPU"
+            },
+            {
+                "id": 4,
+                "f": "Memory: 16GB GDDR6, Storage: 1TB NVME SSD"
+            },
+            {
+                "id": 5,
+                "f": "Up to 8K HDR, Frame rates of up to 120FPS"
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/smCvyYJ/ps4-slim-jet-1-500x500.jpg"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/nkLdSXn/ps4-slim-jet-2-500x500.jpg"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/vDJQrYK/ps4-slim-jet-3-500x500.jpg"
+            },
+            {
+                "id": 4,
+                "i": "https://i.ibb.co/yXN6Jv6/ps4-slim-jet-4-500x500.jpg"
+            },
+            {
+                "id": 5,
+                "i": "https://i.ibb.co/hZqpKrK/ps4-slim-jet-5-500x500.jpg"
+            }
+        ],
+        "category": "consoles",
+        "brand": "Playstation",
+        "price": "55,500",
+        "title": "Sony PS4 Slim Jet Black 8Gb RAM, 500GB Gaming Console",
+        "rating": "5",
+        "description": "Sony PS4 Slim Jet Black Gaming Console comes with x86-64 AMD Jaguar, 8 cores Processor, 8GB GDDR5 RAM, 500GB Storage with 1.84 TFLOPS, and AMD Radeon-based graphics. This PS4 supports BD x 6 CAV, DVD x 8 CAV Disk / Media, and also 2 x Super-Speed USB 3.1 Gen 1, 1 x AUX Input / Output ports are available here. This PS4 comes with 1x Wireless Controller, LAN, WiFi, Bluetooth connectivity, AC 100-240V, 50/60Hz power, Max. 165W Power consumption, HDMI AV Output. It provides a 5degree C - 35degree C Operating Temperature. It has no warranty.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: Sony PS4 Slim Jet"
+            },
+            {
+                "id": 2,
+                "f": "1.84 TFLOPS, AMD Radeon based Graphics"
+            },
+            {
+                "id": 3,
+                "f": "Processor: x86-64 AMD Jaguar"
+            },
+            {
+                "id": 4,
+                "f": "8GB GDDR5 RAM+ 500GB Storage"
+            },
+            {
+                "id": 5,
+                "f": "1x Wireless Controller"
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/DLVsPn0/sony-playstation-5-digital-edition-01-500x500.jpg"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/WHXbdXV/playstation-5-01-500x500.jpg"
+            },
+            {
+                "id": 3,
+                "i": "https://i.ibb.co/xGs6LF9/playstation-5-03-500x500.jpg"
+            },
+            {
+                "id": 5,
+                "i": "https://i.ibb.co/7rnNTFC/sony-playstation-5-digital-edition-02-500x500.jpg"
+            }
+        ],
+        "category": "consoles",
+        "brand": "Playstation",
+        "price": "83,000",
+        "title": "Sony PlayStation 5 Digital Edition Gaming Console",
+        "rating": "3",
+        "description": "Sony PlayStation 5 Digital Edition is another iteration of the classic Sony PlayStation 5 Gaming Console. The PS5 Digital Edition unleashes new gaming possibilities that you never anticipated. You can experience lightning-fast loading with an ultra-high-speed SSD, deeper immersion with haptic feedback support, adaptive triggers, 3D Audio, and an all-new generation of incredible PlayStation games. Play Station 5 Digital Edition is an all-digital version of the PS5 console with no disc drive. You can sign in to your account for PlayStation Network and go to PlayStation Store to buy and download games. It has 3D audio via built-in TV speakers or analog/USB stereo headphones. This console has Ultra-High Speed SSD  letting you maximize your play sessions with near-instant load times for installed PS5 compatible games. The Integrated I/O ports of the Play Station 5 The custom integration of the PS5 Digital Editionâ€™s systems lets creators pull data from the SSD so quickly that they can design games in ways never before possible. This console supports advanced Ray Tracing which allows you to Immerse yourself in worlds with a new level of realism as rays of light are individually simulated, creating true-to-life shadows and reflections in supported PS5 games.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: PlayStation 5 Digital Edition"
+            },
+            {
+                "id": 2,
+                "f": "AMD Zen 2-based CPU with 8 cores at 3.5GHz (variable frequency)"
+            },
+            {
+                "id": 3,
+                "f": "GPU: 10.28 TFLOPs, 36CUs at 2.23GHz"
+            },
+            {
+                "id": 4,
+                "f": "Backward Compatibility & Game Boost"
+            },
+            {
+                "id": 5,
+                "f": "4K UltraHD TV Gaming, 8K support"
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "id": 1,
+                "i": "https://i.ibb.co/vZ5xhXC/xbox-series-s-01-500x500.webp"
+            },
+            {
+                "id": 2,
+                "i": "https://i.ibb.co/LPYpm8Y/xbox-series-s-02-500x500.webp"
+            }
+        ],
+        "category": "consoles",
+        "brand": "Xbox",
+        "price": "50,000",
+        "title": "Microsoft Xbox Series S 10GB Memory 512GB SSD Gaming Console",
+        "rating": "4",
+        "description": "The Microsoft Xbox Series S Gaming Console delivers sensationally smooth frame rates of up to 120FPS with the visual pop of HDR. Immerse yourself with sharper characters, brighter worlds, and impossible details with true-to-life 4K. The Xbox Series S is equipped with 8X Cores @ 3.6 GHz (3.4 GHz w/SMT) Custom Zen 2 CPU and 4 TFLOPS, 20 CUs @1.565 GHz Custom RDNA 2 GPU. It comes with 10GB GDDR6 128 bit-wide bus memory and 512GB Custom NVME SSD. The Microsoft Xbox Series S Gaming Console offers Up to 8K HDR and 4K UHD Blu-Ray. It also delivers up to 120 FPS. For sound capabilities, it offers  L-PCM, up to 7.1, Dolby Digital 5.1, DTS 5.1 and Dolby TrueHD with Atmos. It offers 1x HDMI 2.1 port, 3x USB 3.1 Gen 1 ports, 802.3 10/100/1000 Ethernet, and 802.11ac dual-band wireless connectivity. The Microsoft Xbox Series S Gaming Console comes with no warranty.",
+        "features": [
+            {
+                "id": 1,
+                "f": "Model: Xbox Series S"
+            },
+            {
+                "id": 2,
+                "f": "CPU: 8X Cores @ 3.8 GHz (3.66 GHz w/SMT) Custom Zen 2 CPU"
+            },
+            {
+                "id": 3,
+                "f": "GPU: 12 TFLOPS, 52 CUs @1.825 GHz Custom RDNA 2 GPU"
+            },
+            {
+                "id": 4,
+                "f": "Memory: 10GB GDDR6, Storage: 512GB NVME SSD"
+            },
+            {
+                "id": 5,
+                "f": "Up to 8K HDR, Frame rates of up to 120FPS"
+            }
+        ]
     }
 ]

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../../Assets/logo.png";
 import { BiSearchAlt } from "react-icons/bi";
@@ -6,10 +6,35 @@ import { BsPerson, BsCart3 } from "react-icons/bs";
 import { MdFavoriteBorder } from "react-icons/md";
 import { UserCartContext } from '../../ContextProvider/CartProvider';
 import { AuthContext } from '../../ContextProvider/AuthProvider';
+import { useQuery } from '@tanstack/react-query';
+import Loader from './Loader';
 
 const Navbar = () => {
+    const searchItem = useRef()
+    const [searchedItem, setSearchedItem] = useState([])
+    const [visible, setVisible] = useState(false)
     const { cart } = UserCartContext()
     const { logout, user } = useContext(AuthContext)
+
+    let invisibleStyle = "invisible"
+
+    const handleSearch = (e) => {
+        e.preventDefault()
+        setSearchedItem(searchItem.current.value)
+        setVisible(true)
+    }
+
+    const { data: items = [], isLoading } = useQuery({
+        queryKey: ['searchedItem', searchedItem],
+        queryFn: async () => {
+            const res = await fetch(`http://localhost:5000/searchedItem?search=${searchedItem}`)
+            const data = await res.json()
+            return data
+        }
+    })
+    if (isLoading) {
+        return <Loader />
+    }
 
     const menuBar = <>
         <li tabIndex={0}>
@@ -120,8 +145,16 @@ const Navbar = () => {
     const searchBar =
         <div className="form-control w-full">
             <div className="input-group">
-                <input type="text" placeholder="Search…" className="input input-bordered w-full" />
-                <button className="btn btn-square btn-primary">
+                <input
+                    type="text"
+                    placeholder="Search…"
+                    className="input input-bordered w-full"
+                    ref={searchItem}
+                />
+                <button
+                    className="btn btn-square btn-primary"
+                    onClick={handleSearch}
+                >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                 </button>
             </div>
@@ -129,22 +162,65 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='py-3'>
+            <nav className='py-3 relative'>
                 <div className="navbar bg-base-100 container mx-auto">
                     <div className="navbar-start flex-row-reverse justify-between w-full">
                         <div className="dropdown dropdown-end">
                             <ul tabIndex={0} className="menu menu-compact dropdown-content mt-4 p-2 shadow bg-base-100 w-52 md:w-[550px] bg-transparent">
                                 {searchBar}
+                                {/* Demo searchbar for small device */}
                             </ul>
                             <label tabIndex={0} className="btn btn-ghost lg:hidden">
                                 <BiSearchAlt className='text-xl cursor-pointer font-semibold' />
                             </label>
                         </div>
-                        <Link to="/" className='w-[50%]'><img src={logo} alt="" /></Link>
+                        <Link to="/" className='w-[40%] px-[5px] py-[12px]'><img src={logo} alt="" /></Link>
                     </div>
                     <div className="navbar-center hidden lg:flex w-[65%]">
                         <ul className="menu menu-horizontal px-1 w-[75%]">
                             {searchBar}
+                            <div className={visible === false
+                                ? invisibleStyle
+                                : `visibleStyle`
+                            }>
+                                {
+                                    items.length ?
+                                        <>
+                                            <div>
+                                                {
+                                                    items.slice(0, 5).map(item =>
+                                                        <Link to={`/allProducts/${item._id}`} key={item._id}>
+                                                            <li className='flex items-center flex-nowrap'>
+                                                                <div className='w-20 h-20 hover:bg-transparent'>
+                                                                    <img src={item.images[0].i} alt="" />
+                                                                </div>
+                                                                <div className='flex flex-col items-start text-sm hover:bg-transparent'>
+                                                                    <h2 className='hover:text-primary hover:text-underline'>{item.title}</h2>
+                                                                    <p>Price:{' '}
+                                                                        TK.<span className='text-green-500'>{item.price}</span>
+                                                                    </p>
+                                                                </div>
+                                                            </li>
+                                                        </Link>
+                                                    )
+                                                }
+                                                <p
+                                                    className='text-center text-base py-3 cursor-pointer text-red-500'
+                                                    onClick={() => { setVisible(false) }}>
+                                                    Close Search Tab
+                                                </p>
+                                            </div>
+                                        </>
+                                        : <div>
+                                            <p className='text-center text-base py-5'>0 Items Found</p>
+                                            <p
+                                                className='text-center text-base py-3 cursor-pointer text-red-500'
+                                                onClick={() => { setVisible(false) }}>
+                                                Close Search Tab
+                                            </p>
+                                        </div>
+                                }
+                            </div>
                         </ul>
                     </div>
                     <div className='text-2xl'>
@@ -171,7 +247,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-            <nav className='bg-primary py-2 sticky top-0 z-50'>
+            <nav className={visible === true ? 'nav-menu-invisible' : 'nav-menu-visible'}>
                 <div className="navbar container mx-auto rounded-b-md">
                     <div className="navbar-start">
                         <div className="dropdown">

@@ -2,6 +2,34 @@
     font-family: sans-serif;
 }
 
+.invisible {
+    display: none;
+}
+
+.visibleStyle {
+    background-color: #f5f5f5;
+    position: absolute;
+    z-index: 50;
+    top: 70px;
+    width: 45%;
+}
+
+/* .bg-primary py-2 sticky top-0 z-50 */
+.nav-menu-visible {
+    background-color: #ffbb38;
+    padding: 8px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.nav-menu-invisible {
+    background-color: #ffbb38;
+    padding: 8px 0px;
+    position: relative;
+    z-index: -50;
+}
+
 .mega-menu {
     background-color: whitesmoke;
     margin-top: 16px;

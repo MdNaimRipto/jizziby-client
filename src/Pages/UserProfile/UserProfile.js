@@ -23,7 +23,7 @@ const UserProfile = () => {
     return (
         <div className='container mx-auto'>
             <div className='flex gap-6 items-center py-12 border-b border-b-gray-200'>
-                <div>
+                <div className='ml-2 lg:ml-0'>
                     <img src={user?.photoURL} alt="" referrerPolicy='no-referrer' className='rounded-full' />
                 </div>
                 <div>
