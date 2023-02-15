@@ -5,7 +5,7 @@ export const DataContext = createContext()
 
 const FetchContext = ({ children }) => {
     // allProducts Section
-    const { data: allProducts = [], isLoading: allProductsLoading } = useQuery({
+    const { data: allProducts = [], isLoading: allProductsLoading, refetch } = useQuery({
         queryKey: ['allProducts'],
         queryFn: async () => {
             const res = await fetch('https://jizziby-server.vercel.app/allProducts');
@@ -197,6 +197,7 @@ const FetchContext = ({ children }) => {
         decksLoading,
         topSelling,
         topSellingLoading,
+        refetch
     }
     return (
         <DataContext.Provider value={value}>

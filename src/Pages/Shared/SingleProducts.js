@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
+import React, { useContext, useState } from 'react';
 import { toast } from 'react-hot-toast';
 import { MdFavoriteBorder } from 'react-icons/md';
 import { useLoaderData } from 'react-router-dom';
+import { AuthContext } from '../../ContextProvider/AuthProvider';
 import { UserCartContext } from '../../ContextProvider/CartProvider';
 import ImageCarousal from './ImageCarousal';
 import ScrollToTop from './ScrollToTop';
@@ -9,6 +11,7 @@ import StarRating from './StarRating';
 
 const SingleProducts = () => {
     const { addToCart } = UserCartContext()
+    const { user } = useContext(AuthContext)
 
     const [quantity, setQuantity] = useState(1);
 
@@ -79,8 +82,54 @@ const SingleProducts = () => {
 
     const { title, images, description, rating, price, features, _id } = productDetail
 
+    // Function for getting Comments
+
+    const { data: comments = [], refetch } = useQuery({
+        queryKey: ['comments', _id],
+        queryFn: async () => {
+            const res = await fetch(`http://localhost:5000/comments?commentId=${_id}`)
+            const data = await res.json()
+            return data
+        }
+    })
+
+    // Function for submitting Comment
+
+    const handleSubmitComment = (e) => {
+        e.preventDefault()
+        const form = e.target;
+        const comment = form.comment.value;
+        const rating = form.rating.value;
+
+        const userComment = {
+            name: user?.displayName,
+            img: user?.photoURL,
+            commentId: _id,
+            comment: comment,
+            rating: rating
+        }
+
+        fetch('http://localhost:5000/comments', {
+            method: "POST",
+            headers: {
+                "content-type": "application/json"
+            },
+            body: JSON.stringify(userComment)
+        })
+            .then(res => res.json())
+            .then(data => {
+                if (data.acknowledged === true) {
+                    console.log(data);
+                    toast.success('Comment Added')
+                    form.reset()
+                    refetch()
+                }
+            })
+    }
+    console.log(comments);
+
     return (
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20" key={_id}>
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <ScrollToTop />
             <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
                 <div className='overflow-hidden'>
@@ -91,10 +140,10 @@ const SingleProducts = () => {
                         <h2 className="text-xl md:text-2xl lg:text-3xl lg:leading-[45px] font-semibold mt-6 mb-3">
                             {title}
                         </h2>
-                        <p className="text-base text-gray-700 md:text-lg flex items-center mb-3">
+                        <div className="text-base text-gray-700 md:text-lg flex items-center mb-3">
                             <span className='font-semibold mr-2'>Rating:</span>
                             <StarRating rating={rating} />
-                        </p>
+                        </div>
                         <p className="text-2xl text-gray-700 md:text-lg flex items-center mb-3">
                             <span className='font-semibold mr-2 text-2xl'>Price:</span>
                             <span className='text-green-500 text-2xl'>TK.{price}</span>
@@ -141,7 +190,7 @@ const SingleProducts = () => {
                             <ul>
                                 {
                                     features?.map(feature => (
-                                        <li key={feature._id} className="mb-2">
+                                        <li key={feature.id} className="mb-2">
                                             {feature.f}
                                         </li>
                                     ))
@@ -154,26 +203,58 @@ const SingleProducts = () => {
             <div>
                 {
                     !desc && comment && !commentAdd &&
-                    <h2>This is Comments</h2>
+                    <>
+                        {
+                            !comments.length ?
+                                <p>0 Comments Found. Please Add a Comment</p>
+                                :
+                                <>
+                                    {
+                                        comments.map(comment => (
+
+                                            <div className='flex items-center mb-5'>
+                                                <div className='mr-3'>
+                                                    <div className="flex items-center">
+                                                        <div className="avatar mx-auto">
+                                                            <div className="mask mask-circle w-12 h-12">
+                                                                <img src={comment.img}
+                                                                    referrerPolicy="no-referrer"
+                                                                    alt="" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className='text-start'>
+                                                    <p className='mb-1 font-bold text-sm'>{comment.name}</p>
+                                                    <p>{comment.comment}</p>
+                                                </div>
+                                            </div>
+                                        ))
+                                    }
+                                </>
+                        }
+                    </>
                 }
             </div>
             <div>
                 {
                     !desc && !comment && commentAdd &&
-                    <form>
+                    <form onSubmit={handleSubmitComment}>
                         <textarea
                             className='border-2 w-full lg:w-1/2 outline-none py-2 px-3 rounded mb-3'
                             rows="3"
+                            name='comment'
                             placeholder='Enter Your Comment'
                         />
                         <div>
                             <input
                                 className='border-2 outline-none py-3 px-3 rounded mr-2'
-                                type=""
-                                name=""
+                                type="text"
+                                name="rating"
                                 placeholder='Add Rating'
                             />
                             <button
+                                disabled={!user?.uid}
                                 className='btn bg-[#000] border-0 text-white hover:bg-[#000]'
                             >
                                 Submit Comment
