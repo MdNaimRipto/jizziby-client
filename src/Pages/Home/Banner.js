@@ -17,7 +17,7 @@ import { Pagination, Autoplay } from "swiper";
 const Banner = () => {
     return (
         <div className='container my-8 mx-auto grid grid-cols-1 lg:grid-cols-4'>
-            <div className='col-span-3 bg-[#ffeae5] mr-0 lg:mr-10' data-aos="fade-right">
+            <div className='col-span-3 bg-[#ffeae5] mr-0 lg:mr-10'>
                 <Swiper
                     pagination={{
                         dynamicBullets: true,
@@ -124,7 +124,7 @@ const Banner = () => {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className='col-span-1 hidden lg:block' data-aos="fade-left">
+            <div className='col-span-1 hidden lg:block'>
                 <div className='flex flex-col-reverse gap-10'>
                     <div className='bg-[#d3efff]'>
                         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
