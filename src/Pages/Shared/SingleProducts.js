@@ -88,7 +88,7 @@ const SingleProducts = () => {
     const { data: comments = [], refetch } = useQuery({
         queryKey: ['comments', _id],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/comments?commentId=${_id}`)
+            const res = await fetch(`https://jizziby-server.vercel.app/comments?commentId=${_id}`)
             const data = await res.json()
             return data
         }
@@ -110,7 +110,7 @@ const SingleProducts = () => {
             rating: rating
         }
 
-        fetch('http://localhost:5000/comments', {
+        fetch('https://jizziby-server.vercel.app/comments', {
             method: "POST",
             headers: {
                 "content-type": "application/json"

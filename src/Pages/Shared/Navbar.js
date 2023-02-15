@@ -27,7 +27,7 @@ const Navbar = () => {
     const { data: items = [], isLoading } = useQuery({
         queryKey: ['searchedItem', searchedItem],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/searchedItem?search=${searchedItem}`)
+            const res = await fetch(`https://jizziby-server.vercel.app/searchedItem?search=${searchedItem}`)
             const data = await res.json()
             return data
         }

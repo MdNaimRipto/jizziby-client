@@ -21,6 +21,7 @@ import Home from "../Pages/Home/Home";
 import Login from "../Pages/LoginRegister/Login";
 import Register from "../Pages/LoginRegister/Register";
 import AllProductsContainer from "../Pages/Shared/AllProductsContainer";
+import ErrorPage from "../Pages/Shared/ErrorPage";
 import SingleProducts from "../Pages/Shared/SingleProducts";
 import UserProfile from "../Pages/UserProfile/UserProfile";
 import PrivateRoute from "./PrivateRoute";
@@ -29,6 +30,7 @@ export const router = createBrowserRouter([
     {
         path: "/",
         element: <Main />,
+        errorElement: <ErrorPage />,
         children: [
             {
                 path: "/",
@@ -73,7 +75,7 @@ export const router = createBrowserRouter([
                 }
             },
             {
-                path: "laptopsBattery",
+                path: "/laptopsBattery",
                 element: <LaptopsBattery />
             },
             {
@@ -91,7 +93,7 @@ export const router = createBrowserRouter([
                 }
             },
             {
-                path: "televisions",
+                path: "/televisions",
                 element: <Televisions />
             },
             {
@@ -102,7 +104,7 @@ export const router = createBrowserRouter([
                 }
             },
             {
-                path: "phones",
+                path: "/phones",
                 element: <Phones />
             },
             {
@@ -113,7 +115,7 @@ export const router = createBrowserRouter([
                 }
             },
             {
-                path: "tablets",
+                path: "/tablets",
                 element: <Tablets />
             },
             {
@@ -124,7 +126,7 @@ export const router = createBrowserRouter([
                 }
             },
             {
-                path: "smartWatches",
+                path: "/smartWatches",
                 element: <SmartWatch />
             },
             {
@@ -135,7 +137,7 @@ export const router = createBrowserRouter([
                 }
             },
             {
-                path: "gpus",
+                path: "/gpus",
                 element: <GraphicsCards />
             },
             {
@@ -146,7 +148,7 @@ export const router = createBrowserRouter([
                 }
             },
             {
-                path: "headphones",
+                path: "/headphones",
                 element: <Headphones />
             },
             {
@@ -157,7 +159,7 @@ export const router = createBrowserRouter([
                 }
             },
             {
-                path: "speakers",
+                path: "/speakers",
                 element: <Speakers />
             },
             {
@@ -168,7 +170,7 @@ export const router = createBrowserRouter([
                 }
             },
             {
-                path: "earPhones",
+                path: "/earPhones",
                 element: <EarPhones />
             },
             {
@@ -227,6 +229,7 @@ export const router = createBrowserRouter([
     {
         path: "/",
         element: <Secondary />,
+        errorElement: <ErrorPage />,
         children: [
             {
                 path: "/login",

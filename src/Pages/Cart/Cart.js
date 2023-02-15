@@ -15,7 +15,7 @@ const Cart = () => {
     }
 
     const confirmPurchase = (email) => {
-        fetch(`http://localhost:5000/cart/${email}`, {
+        fetch(`https://jizziby-server.vercel.app/cart/${email}`, {
             method: "PUT",
             headers: {
                 "content-type": "application/json"
