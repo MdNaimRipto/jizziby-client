@@ -8,6 +8,7 @@ import { UserCartContext } from '../../ContextProvider/CartProvider';
 import ImageCarousal from './ImageCarousal';
 import ScrollToTop from './ScrollToTop';
 import StarRating from './StarRating';
+import noProfile from "../../Assets/noProfile.jpg"
 
 const SingleProducts = () => {
     const { addToCart } = UserCartContext()
@@ -119,14 +120,12 @@ const SingleProducts = () => {
             .then(res => res.json())
             .then(data => {
                 if (data.acknowledged === true) {
-                    console.log(data);
                     toast.success('Comment Added')
                     form.reset()
                     refetch()
                 }
             })
     }
-    console.log(comments);
 
     return (
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -219,6 +218,10 @@ const SingleProducts = () => {
                                                             <div className="mask mask-circle w-12 h-12">
                                                                 <img src={comment.img}
                                                                     referrerPolicy="no-referrer"
+                                                                    onError={(event) => {
+                                                                        event.currentTarget.src =
+                                                                            { noProfile }
+                                                                    }}
                                                                     alt="" />
                                                             </div>
                                                         </div>

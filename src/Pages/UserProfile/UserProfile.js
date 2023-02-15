@@ -3,6 +3,7 @@ import React, { useContext } from 'react';
 import { AuthContext } from '../../ContextProvider/AuthProvider';
 import Loader from "../Shared/Loader"
 import UserCartDetails from './UserCartDetails';
+import noProfile from "../../Assets/noProfile.jpg"
 
 const UserProfile = () => {
     const { user } = useContext(AuthContext)
@@ -23,8 +24,12 @@ const UserProfile = () => {
     return (
         <div className='container mx-auto'>
             <div className='flex gap-6 items-center py-12 border-b border-b-gray-200'>
-                <div className='ml-2 lg:ml-0'>
-                    <img src={user?.photoURL} alt="" referrerPolicy='no-referrer' className='rounded-full' />
+                <div className='ml-2 lg:ml-0 w-24 h-24'>
+                    <img
+                        src={user?.photoURL ? user?.photoURL : noProfile}
+                        alt="" referrerPolicy='no-referrer'
+                        className='rounded-full'
+                    />
                 </div>
                 <div>
                     <h2 className='text-3xl font-semibold mb-2'>{user?.displayName}</h2>

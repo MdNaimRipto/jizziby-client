@@ -14,7 +14,7 @@ const ImageCarousal = ({ images }) => {
 
     return (
         <>
-            <div className='w-full ' data-aos="fade-right">
+            <div className='w-full'>
                 <Swiper
 
                     style={{

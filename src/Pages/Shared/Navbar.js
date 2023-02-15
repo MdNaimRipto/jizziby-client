@@ -174,7 +174,7 @@ const Navbar = () => {
                                 <BiSearchAlt className='text-xl cursor-pointer font-semibold' />
                             </label>
                         </div>
-                        <Link to="/" className='w-[40%] px-[5px] py-[12px]'><img src={logo} alt="" /></Link>
+                        <Link to="/" className='w-[50%] px-[5px] py-[12px]'><img src={logo} alt="" /></Link>
                     </div>
                     <div className="navbar-center hidden lg:flex w-[65%]">
                         <ul className="menu menu-horizontal px-1 w-[75%]">
