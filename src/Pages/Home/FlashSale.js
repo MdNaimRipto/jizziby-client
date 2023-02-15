@@ -19,7 +19,7 @@ const FlashSale = () => {
             <div className="flex flex-col justify-center items-center pt-7">
                 <Countdown />
                 <div className="max-w-xl mb-6">
-                    <h2 className="max-w-lg mb-6 font-sans text-3xl font-semibold tracking-tight sm:text-3xl sm:leading-none">
+                    <h2 className="max-w-lg mb-6 font-sans md:text-3xl font-semibold tracking-tight text-2xl sm:leading-none">
                         WOO! Flash Sale
                     </h2>
                     <button className='flex items-center border-b border-b-[#ffbb38] font-semibold mx-auto hover:scale-110 duration-300'>

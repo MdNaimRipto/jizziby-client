@@ -13,10 +13,10 @@ const ProductCategory = () => {
             style={{ overflow: "hidden" }}
         >
             <div className="mx-auto mb-10 sm:text-center" data-aos="fade-left">
-                <h2 className='text-4xl font-semibold mb-3 text-center'>
+                <h2 className='text-2xl md:text-3xl font-semibold text-center mb-4'>
                     Products Category
                 </h2>
-                <p className='font-semibold text-center'>Get Your Desired Product from Products Category!</p>
+                <p className='font-semibold text-center text-sm md:text-base'>Get Your Desired Product from Products Category!</p>
             </div>
             <div className="grid gap-8 mx-auto grid-cols-2 md:grid-cols-3 lg:grid-cols-5" data-aos="fade-right">
 

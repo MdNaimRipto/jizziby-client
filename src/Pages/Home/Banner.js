@@ -41,7 +41,7 @@ const Banner = () => {
                                         <h4 className='max-w-lg mb-3 font-sans text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl sm:leading-none'>
                                             Xiaomi Mi Series
                                         </h4>
-                                        <h2 className="max-w-lg mb-6 font-sans font-bold tracking-tight text-gray-900 sm:leading-none text-5xl md:text-7xl lg:text-6xl">
+                                        <h2 className="max-w-lg mb-6 font-sans font-bold tracking-tight text-gray-900 sm:leading-none text-[32px] md:text-7xl lg:text-6xl">
                                             Xiaomi Mi P1
                                         </h2>
                                         <button className='flex items-center border-b border-b-[#ffbb38] font-semibold'>
@@ -72,7 +72,7 @@ const Banner = () => {
                                         <h4 className='max-w-lg mb-3 font-sans text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl sm:leading-none'>
                                             Razer Blade Series
                                         </h4>
-                                        <h2 className="max-w-lg mb-6 font-sans text-5xl md:text-7xl lg:text-5xl font-bold tracking-tight text-gray-900">
+                                        <h2 className="max-w-lg mb-6 font-sans text-[32px] md:text-7xl lg:text-5xl font-bold tracking-tight text-gray-900">
                                             Razer Blade 15
                                         </h2>
                                         <button className='flex items-center border-b border-b-[#ffbb38] font-semibold'>
@@ -103,7 +103,7 @@ const Banner = () => {
                                         <h4 className='max-w-lg mb-3 font-sans text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl sm:leading-none'>
                                             Samsung S Series
                                         </h4>
-                                        <h2 className="max-w-lg mb-6 font-sans text-5xl md:text-7xl lg:text-5xl font-bold tracking-tight text-gray-900">
+                                        <h2 className="max-w-lg mb-6 font-sans text-[32px] md:text-7xl lg:text-5xl font-bold tracking-tight text-gray-900">
                                             Samsung S10+
                                         </h2>
                                         <button className='flex items-center border-b border-b-[#ffbb38] font-semibold'>

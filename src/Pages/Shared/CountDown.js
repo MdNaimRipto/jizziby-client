@@ -41,7 +41,7 @@ function Countdown() {
 
     return (
         <div className='mb-6'>
-            <div className='text-2xl md:text-3xl flex font-semibold'>
+            <div className='text-lg md:text-3xl flex font-semibold'>
                 <div className='flex flex-col items-center mr-6'>
                     <span className='text-red-500 mr-2'>
                         {timeLeft.days}

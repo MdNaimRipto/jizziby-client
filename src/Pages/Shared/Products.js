@@ -20,9 +20,9 @@ const Products = ({ allProduct }) => {
                     />
                 </div>
                 <div>
-                    <p className="text-lg font-medium mb-2 text-black">{title}</p>
+                    <p className="text-base md:text-lg font-medium mb-2 text-black">{title}</p>
                     <div className='flex justify-between items-center absolute bottom-2 w-full right-0 px-4'>
-                        <p className='text-xl font-medium mb-2 text-green-500'>
+                        <p className='text-base md:text-xl font-medium mb-2 text-green-500'>
                             <span className='mr-1 text-black'>Price: TK.</span>
                             <span>{price}</span>
                         </p>

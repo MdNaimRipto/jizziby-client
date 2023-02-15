@@ -207,20 +207,28 @@
 }
 
 @media screen and (max-width:576px) {
+    .selectedClass {
+        font-size: 14px;
+    }
+
+    .unselectedClass {
+        font-size: 12px;
+    }
+
     .mega-menu {
         margin-top: 0px;
         margin-left: 0px;
-        width: 175px;
+        width: 150px;
     }
 
     .accessories-menu {
         margin-top: 0px;
         margin-left: 0px;
-        width: 165px;
+        width: 150px;
     }
 
     .small-menu {
-        width: 160px;
+        width: 150px;
         margin-top: 0px;
     }
 }

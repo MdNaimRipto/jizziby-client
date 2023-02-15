@@ -8,7 +8,7 @@ const StarRating = ({ rating }) => {
             stars.push(<AiFillStar key={i} />);
         }
     }
-    return <div className='text-2xl text-yellow-400 flex'>{stars}</div>;
+    return <div className='text-lg md:text-2xl text-yellow-400 flex'>{stars}</div>;
 }
 
 export default StarRating;

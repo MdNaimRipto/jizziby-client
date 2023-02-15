@@ -13,7 +13,7 @@ const NewArrivals = () => {
     return (
         <div className='container mx-auto py-16 overflow-hidden'>
             <div className='flex justify-between items-end mt-2 px-10' data-aos="fade-left">
-                <h2 className='text-3xl font-semibold text-left'>
+                <h2 className='text-2xl md:text-3xl font-semibold text-left'>
                     New Arrivals
                 </h2>
             </div>

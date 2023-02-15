@@ -18,10 +18,10 @@ const BestDeals = () => {
         >
             <div className="flex flex-col justify-center items-center">
                 <div className="max-w-xl mb-6 flex flex-col items-center justify-center text-white">
-                    <h2 className="max-w-lg mt-7 mb-1 font-sans text-xl font-semibold">
+                    <h2 className="max-w-lg mt-7 mb-1 font-sans text-lg md:text-xl font-semibold">
                         Best Deals
                     </h2>
-                    <p className='text-2xl leading-[40px] md:text-3xl text-center mb-4 md:leading-[50px]'>Get the best Deals on Watches.<br /> Hurry Up</p>
+                    <p className='text-lg leading-[40px] md:text-3xl text-center mb-4 md:leading-[50px]'>Get the best Deals on Watches.<br /> Hurry Up</p>
                     <button className='flex items-center border-b border-b-[#ffbb38] font-semibold mx-auto hover:scale-110 duration-300'>
                         <Link to="/smartWatches" className='text-lg mr-1'>Shop Now</Link>
                         <MdArrowForwardIos className='text-sm' />

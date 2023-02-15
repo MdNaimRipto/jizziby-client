@@ -147,7 +147,7 @@ const SingleProducts = () => {
                             <span className='font-semibold mr-2 text-2xl'>Price:</span>
                             <span className='text-green-500 text-2xl'>TK.{price}</span>
                         </p>
-                        <p className="text-base text-gray-700 md:text-lg">
+                        <p className="text-sm text-gray-700 md:text-lg">
                             <span className='font-semibold mr-1'>Description:</span>
                             {description?.slice(0, 100) + "..."}
                         </p>
@@ -161,7 +161,7 @@ const SingleProducts = () => {
                                 className='text-2xl mr-3 cursor-pointer font-semibold hover:text-primary duration-500' />
                             <button
                                 onClick={() => handleAddToCart(quantity, productDetail)}
-                                className='btn bg-[#000] border-0 text-white hover:bg-[#000]'>
+                                className='btn btn-sm md:btn-md text-xs md:text-base bg-[#000] border-0 text-white hover:bg-[#000]'>
                                 Add To Cart
                             </button>
                         </div>
@@ -183,13 +183,13 @@ const SingleProducts = () => {
                 {
                     desc && !comment && !commentAdd &&
                     <div>
-                        <h4 className='text-justify'>{description}</h4>
+                        <h4 className='text-justify text-xs md:text-xl'>{description}</h4>
                         <div className='mt-4'>
-                            <h4 className='mb-3 text-xl font-bold'>Key Features:</h4>
+                            <h4 className='mb-3 text-xs md:text-xl font-bold'>Key Features:</h4>
                             <ul>
                                 {
                                     features?.map(feature => (
-                                        <li key={feature.id} className="mb-2">
+                                        <li key={feature.id} className="mb-2 text-xs md:text-xl leading-6">
                                             {feature.f}
                                         </li>
                                     ))

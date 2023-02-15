@@ -10,7 +10,7 @@ const Earphone = ({ earphones }) => {
             <div className='overflow-scroll lg:overflow-hidden'>
                 <div className="4 mx-auto container" data-aos="fade-left">
                     <div className='flex justify-between items-end mt-2'>
-                        <h2 className='text-3xl font-semibold text-left'>
+                        <h2 className='text-2xl md:text-3xl font-semibold text-center md:text-left mb-2 md:mb-0'>
                             All Top Gadgets
                         </h2>
                         <Link to="/earphones" className='text-base hidden lg:block hover:text-lg hover:text-primary duration-300 font-semibold border-b border-b-primary'>
@@ -29,7 +29,7 @@ const Earphone = ({ earphones }) => {
                     <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-2">
                         {
                             earphones.map(product => (
-                                <Link key={product._id} to={`/${product.category}/${product._id}`}>
+                                <Link key={product._id} to={`/${product.category}/${product._id}`} className="mx-auto">
                                     <div
                                         className="overflow-hidden transition-shadow duration-300 bg-white hover-container w-[240px] h-[360px]">
                                         <div className='w-full mx-auto'>

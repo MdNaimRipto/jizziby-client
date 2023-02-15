@@ -28,7 +28,7 @@ const ImageCarousal = ({ images }) => {
                         disableOnInteraction: false,
                     }}
                     modules={[FreeMode, Navigation, Thumbs, Autoplay]}
-                    className="h-[400px] w-[350px] md:w-[400px]"
+                    className="h-[350px] md:h-[400px] w-[300px] md:w-[400px]"
                 >
                     {
                         images?.map(ss =>

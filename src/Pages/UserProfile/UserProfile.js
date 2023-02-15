@@ -32,12 +32,12 @@ const UserProfile = () => {
                     />
                 </div>
                 <div>
-                    <h2 className='text-3xl font-semibold mb-2'>{user?.displayName}</h2>
+                    <h2 className='text-xl md:text-3xl font-semibold mb-2'>{user?.displayName}</h2>
                     <p>{user?.email}</p>
                 </div>
             </div>
             <div>
-                <h2 className='text-3xl font-semibold pt-8 pb-3 text-center'>Recently Saved Products</h2>
+                <h2 className='text-xl md:text-3xl font-semibold pt-8 pb-3 text-center'>Recently Saved Products</h2>
                 {
                     cartDetails.map(cartInfo =>
                         <UserCartDetails
