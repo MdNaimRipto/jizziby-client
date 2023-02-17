@@ -261,7 +261,7 @@ const Navbar = () => {
 
                     </div>
                     <div className="font-semibold hidden lg:flex">
-                        <ul className="menu menu-horizontal px-1">
+                        <ul className="menu menu-horizontal px-1 lg:text-sm xl:text-lg">
                             {menuBar}
                         </ul>
                     </div>

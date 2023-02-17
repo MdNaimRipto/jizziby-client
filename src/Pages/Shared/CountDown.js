@@ -46,25 +46,25 @@ function Countdown() {
                     <span className='text-red-500 mr-2'>
                         {timeLeft.days}
                     </span>
-                    <span>days</span>
+                    <span className='text-lg md:text-3xl'>days</span>
                 </div>
                 <div className='flex flex-col items-center mr-6'>
                     <span className='text-sky-500 mr-2'>
                         {timeLeft.hours}
                     </span>
-                    <span>hours</span>
+                    <span className='text-lg md:text-3xl'>hours</span>
                 </div>
                 <div className='flex flex-col items-center mr-6'>
                     <span className='text-green-500 mr-2'>
                         {timeLeft.minutes}
                     </span>
-                    <span>minutes</span>
+                    <span className='text-lg md:text-3xl'>minutes</span>
                 </div>
                 <div className='flex flex-col items-center'>
                     <span className='text-pink-500 mr-2'>
                         {timeLeft.seconds}
                     </span>
-                    <span>seconds</span>
+                    <span className='text-lg md:text-3xl'>seconds</span>
                 </div>
             </div>
         </div>

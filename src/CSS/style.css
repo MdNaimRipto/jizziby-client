@@ -32,17 +32,17 @@
 
 .mega-menu {
     background-color: whitesmoke;
-    margin-top: 16px;
+    margin-top: 18px;
     width: 1330px;
-    margin-left: -200px;
+    margin-left: -160px;
     border-radius: 0px !important;
 }
 
 .accessories-menu {
     background-color: whitesmoke;
-    margin-top: 16px;
+    margin-top: 18px;
     width: 1330px;
-    margin-left: -355px;
+    margin-left: -335px;
     border-radius: 0px !important;
 }
 
@@ -244,5 +244,19 @@
         margin-top: 0px;
         margin-left: 0px;
         width: 240px;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1280px) {
+    .mega-menu {
+        width: 995px;
+        margin-left: -35px;
+        margin-top: 18px;
+    }
+
+    .accessories-menu {
+        margin-top: 18px;
+        width: 995px;
+        margin-left: -185px;
     }
 }

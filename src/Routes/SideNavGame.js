@@ -28,7 +28,7 @@ const SideNavGame = () => {
         fetch('https://jizziby-server.vercel.app/controllers')
             .then(res => res.json())
             .then(data => {
-                setController(data)
+                setController(data.slice(0, 3))
                 setConsole([])
                 setHeadset([])
                 setActive([])
@@ -105,9 +105,6 @@ const SideNavGame = () => {
                             className='text-gray-600 font-semibold hover:text-gray-700 py-2'>
                             Console
                         </button>
-                    </li>
-                    <li className='disabled text-lg ml-1 text-gray-700 font-semibold underline'>
-                        Shop Now
                     </li>
                 </ul>
 

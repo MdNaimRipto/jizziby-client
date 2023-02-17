@@ -78,7 +78,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="container mx-auto flex flex-col md:flex-row justify-between items-center mt-6 mb-3">
-                <p className="mb-3 md:mb-0">CopyrightⒸ Jizziby 2025.</p>
+                <p className="mb-3 md:mb-0">Copyright Ⓒ Jizziby 2025.</p>
                 <div className="flex flex-row-reverse items-center gap-4 mr-5">
                     <div className="flex items-center text-3xl gap-3 md:gap-5">
                         <FaCcVisa />

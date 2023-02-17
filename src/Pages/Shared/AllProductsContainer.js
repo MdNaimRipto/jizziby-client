@@ -11,7 +11,7 @@ const AllProductsContainer = ({ allProduct }) => {
         <Link to={`/allProducts/${_id}`} key={_id}>
             <ScrollToTop />
             <div
-                className="overflow-hidden transition-shadow duration-300 bg-white hover-container shadow-xl p-4 relative pb-[50px] h-[475px]">
+                className="overflow-hidden transition-shadow duration-300 bg-white hover-container shadow-xl p-4 relative pb-[50px] h-[450px] xl:h-[475px]">
                 <div className='mb-4'>
                     <img
                         src={images[0].i}
@@ -20,9 +20,9 @@ const AllProductsContainer = ({ allProduct }) => {
                     />
                 </div>
                 <div>
-                    <p className="text-base md:text-lg font-medium mb-2 text-black">{title}</p>
+                    <p className="text-base xl:text-xl font-medium mb-2 text-black">{title}</p>
                     <div className='flex justify-between items-center absolute bottom-2 w-full right-0 px-4'>
-                        <p className='text-base md:text-xl font-medium mb-2 text-green-500'>
+                        <p className='text-base xl:text-xl font-medium mb-2 text-green-500'>
                             <span className='mr-1 text-black'>Price: TK.</span>
                             <span>{price}</span>
                         </p>

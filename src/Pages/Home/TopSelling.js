@@ -18,7 +18,7 @@ const TopSelling = () => {
                 </h2>
             </div>
             <div>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-12 mx-12 mt-8' data-aos="fade-right">
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-12 mx-8 md:mx-12 mt-8' data-aos="fade-right">
                     {
                         topSelling.map(product => (
                             <div className="bg-white rounded-lg shadow-md p-2 md:p-6 lg:flex items-center"
@@ -33,7 +33,7 @@ const TopSelling = () => {
                                     <div className="flex items-center justify-center md:justify-start">
                                         <h3 className="text-xs md:text-lg font-medium mr-2">TK.{product.price}</h3>
                                         <Link to={`/${product.category}/${product._id}`}
-                                            className="bg-primary text-white py-2 px-4 rounded-lg hover:text-black duration-300 text-sm md:text-lg"
+                                            className="bg-primary text-white py-2 px-4 rounded-lg hover:text-black duration-300 text-sm md:text-lg lg:text-sm xl:text-lg"
                                         >View Details
                                         </Link>
                                     </div>
