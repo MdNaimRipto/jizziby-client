@@ -5,7 +5,7 @@ function Countdown() {
 
     useEffect(() => {
         // Set the date we're counting down to
-        const countDownDate = new Date("Feb 21, 2023 15:37:25").getTime();
+        const countDownDate = new Date("Mar 21, 2023 15:37:25").getTime();
 
         // Update the count down every 1 second
         const intervalId = setInterval(() => {
@@ -37,7 +37,7 @@ function Countdown() {
     if (!timeLeft) {
         return <div>Loading...</div>;
     }
-    if (timeLeft === 'EXPIRED') return <div>EXPIRED</div>
+    if (timeLeft === 'EXPIRED') return <div className='font-bold'>EXPIRED</div>
 
     return (
         <div className='mb-6'>
